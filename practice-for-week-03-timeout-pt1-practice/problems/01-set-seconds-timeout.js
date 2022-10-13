@@ -24,17 +24,10 @@ setSecondsTimeout(function () {
 ***********************************************************************/
 
 function setSecondsTimeout(cb, delayInSeconds) {
-  const timer =  setTimeout(cb, delayInSeconds);
-  console.log(timer)
+
 }
 
-setSecondsTimeout(function () {
-  console.log('hello');
-}, 1); // should print 'hello' after 1000 milliseconds
 
-setSecondsTimeout(function () {
-  console.log('world');
-}, 1.4); // should print 'world' after 1400 milliseconds
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
   module.exports = setSecondsTimeout;
